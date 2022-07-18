@@ -1,0 +1,16 @@
+CREATING GROUPS AND USERS
+
+First I clogged into my machine as a root user with sudo -i command 
+
+I created groups using the groupadd command, namely group1,group2,group3
+
+I created users with the useradd command to add 15 users
+
+I used the usermod -a -G group1 user1 to add users to respective groups, changing the groups and users
+
+
+
+
+2. To find the string packets in the path var/log
+
+grep “packets” var/log 
